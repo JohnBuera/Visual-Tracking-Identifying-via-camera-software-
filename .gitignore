@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.env
+.DS_Store
+
+# Large local video files and model checkpoints
+videos/*
+models/*
+!videos/.gitkeep
+!models/.gitkeep
